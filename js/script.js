@@ -18,15 +18,3 @@ function nextImg() {
 	}
 }
 
-/*function previousImg() {
-	if (count < 0) {
-		count = lengthImages-1;
-		listImages[count].classList.add('displayNone');
-		listImages[0].classList.remove('displayNone');
-		count--;
-	} else {
-			listImages[count].classList.remove('displayNone');
-			listImages[lengthImages -1].classList.add('displayNone');
-	}
-
-}*/
