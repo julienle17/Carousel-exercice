@@ -21,13 +21,14 @@
 .button {
 	width: 4em;
 	height: 2em;
-	background-color: orange;
+	background-color:  #ff8700;
 	color: black;
 	border-radius: 15%;
 	border: none;
 }
 
 .button:active {
-	box-shadow: inset -0.1em -0.1em 5px 0px black;
+	box-shadow: inset -0.1em -0.1em 5px 0px #2F2F2F;
 	transform: translateY(0.1em);
+	opacity: 0.95;
 	}

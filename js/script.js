@@ -3,6 +3,7 @@
 let count = 0;
 let listImages = document.getElementsByClassName('carousel');
 let lengthImages = listImages.length;
+document.getElementsByClassName('button').onclick = nextImg();
 
 function nextImg() {
 	if (count < lengthImages -1) {
@@ -17,6 +18,15 @@ function nextImg() {
 	}
 }
 
-function previousImg() {
+/*function previousImg() {
+	if (count < 0) {
+		count = lengthImages-1;
+		listImages[count].classList.add('displayNone');
+		listImages[0].classList.remove('displayNone');
+		count--;
+	} else {
+			listImages[count].classList.remove('displayNone');
+			listImages[lengthImages -1].classList.add('displayNone');
+	}
 
-}
+}*/
